@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+
+# JS compilado
+dist/
+
+# variables sensibles
+.env
+
+# archivos de logs temporales
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# archivos ocultos del SO
+.DS_Store
+Thumbs.db

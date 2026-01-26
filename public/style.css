@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Erica+One&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Genos:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Protest+Guerrilla&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Share+Tech+Mono&family=Story+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(157, 157, 162);
+
+}
+
+section{
+    width:20%;
+    height: 65%;
+}
+.contenedor_display{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 2fr repeat(5,1fr);
+    padding: 0 10px 10px 10px;
+    gap: 4px;
+    background-color: rgb(7, 33, 82);
+border-radius: 5px;
+}
+
+.pantalla{
+    font-family: 'Orbitron', sans-serif;
+
+    width: 95%;
+    height: 80%;
+    margin: auto;
+    /* height: 10%; */
+    grid-column: 1/5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+    margin-bottom: 5px;
+    /* margin-bottom: 1rem; */
+    padding: 0px 1rem;
+    border-radius: 20px;
+    background-color: whitesmoke;
+     /* grid-row: 1/span 2;  */
+}
+
+.contenedor_display .resultado{
+    text-align: right;
+    padding: 0 4px;
+    /* background-color: red; */
+    /* border: 1px solid #555; */
+    font-size: 1.5rem;
+}
+.contenedor_display .operacion{
+    text-align: right;
+    /* height: 1.5rem; */
+    padding: 0 4px;
+    /* background-color: red; */
+    /* border: 1px solid #555; */
+}
+.operador.suma{
+    grid-column:4;
+    grid-row:5/span 2;
+}
