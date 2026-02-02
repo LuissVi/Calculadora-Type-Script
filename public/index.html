@@ -13,15 +13,16 @@
         <div class="contenedor_display">
             <div class="pantalla" id="pantalla">
                 <p class="operacion">
-                    <span class="num-a"></span>
+                    <!-- <span class="num-a"></span>
                     <span class="op"></span>
-                    <span class="num-b"></span>
+                    <span class="num-b"></span> -->
                 </p>
+                
                 <!-- <input type="text" class="operacion" readonly> -->
-                <p class="resultado"></p>
-                <!-- <input type="text" class="resultado" readonly> -->
+                <!-- <p class="resultado"></p> -->
+                <input type="text" class="resultado max-result" readonly maxlength="10">
             </div>
-            <button class="operador" data-op="%">%</button>
+            <button class="porciento" data-op="%">%</button>
             <button class="clear">C</button>
             <button class="quitar">&larr;</button>
             <button class="operador" data-op="&#247;">&#247;</button>
@@ -38,7 +39,7 @@
             <button class="num" data-num="3">3</button>
             <button class="operador suma" data-op="+">+</button>
             <button class="num" data-num="0">0</button>
-            <button class="num" data-num=".">.</button>
+            <button class="decimal" data-dec=".">.</button>
             <button class="igual">=</button>
     </section>
     <script type="module" src="../dist/index.js"></script>
