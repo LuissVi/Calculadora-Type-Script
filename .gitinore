@@ -2,7 +2,7 @@
 node_modules/
 
 # JS compilado
-dist/
+public/dist/
 
 # variables sensibles
 .env

@@ -1,20 +1,15 @@
-# 🧮 Calculadora Pro - Arquitectura MVC
+# 🧮 Calculadora Type Script - Arquitectura MVC
 
-Este proyecto es una calculadora web robusta desarrollada con **TypeScript** y **Node.js**. La aplicación está estructurada bajo el patrón de diseño **Modelo-Vista-Controlador (MVC)**, lo que garantiza un código organizado, escalable y fácil de mantener.
+Este proyecto es una calculadora web robusta desarrollada con **TypeScript**. La aplicación sigue el patrón de diseño **Modelo-Vista-Controlador (MVC)**, lo que garantiza un código organizado, escalable y fácil de mantener. **Node.js** se utiliza únicamente para compilar el código TypeScript, mientras que la aplicación se sirve como archivos estáticos en Netlify.
 
-
-
-[Image of MVC architectural pattern diagram]
-
-
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 * **Lenguaje:** [TypeScript](https://www.typescriptlang.org/)
 * **Entorno de ejecución:** [Node.js](https://nodejs.org/)
 * **Arquitectura:** Pattern MVC (Model-View-Controller)
 * **Bundler/Herramientas:** NPM, TSC (TypeScript Compiler)
 
-## 🏗️ Estructura del Proyecto (MVC)
+## Estructura del Proyecto (MVC)
 
 El proyecto se divide en tres capas fundamentales:
 
@@ -32,14 +27,12 @@ src/
 │   └── CalculatorView.ts
 └── index.ts  # Punto de entrada
 ```
-**🛠️ Tecnologías utilizadas**
+**Tecnologías utilizadas**
 
 - Node.js (sin frameworks)
 - TypeScript
 - Programación Orientada a Objetos (OOP)
 - Patrón MVC
-
-**⚙️ Instalación y ejecución**
 
 **Clonar el repositorio:**
 
@@ -50,6 +43,6 @@ cd tu-repositorio
 
 Se incluyen PDFs explicativos por clase y patrón MVC:
 
-- [Modelo - Calculator](docs/CalculatorModel.pdf)  
-- [Vista - View](docs/CalculatorView.pdf)  
-- [Controlador - Controller](docs/Controller.pdf)  
+- [Modelo - Model](PDF/modelo.pdf)  
+- [Vista - View](PDF/vista.pdf)  
+- [Controlador - Controller](PDF/controlador.pdf)  

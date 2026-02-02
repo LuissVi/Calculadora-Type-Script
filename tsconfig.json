@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
-    "rootDir": "./src", /** carpeta de entrada; código TS*/
-    "outDir": "./dist",  /* Carpeta de salida; código JS */
-    "module": "es6",
-    "target": "es6",
-    "strict": true,
+    "rootDir": "./src", 
+    "outDir": "./public/dist", 
+    "module": "ES2020",
+    "target": "ES2020",
+    "strict": true
   },
-  "include": ["src"],                 // Compilar solo lo que hay en /src
-  "exclude": ["node_modules"]         // Ignorar completamente la carpeta node_modules cuando busque archivos .ts para compilar
+  "include": ["src"],                 
+  "exclude": ["node_modules"]     
 }
