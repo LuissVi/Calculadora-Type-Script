@@ -2,6 +2,9 @@
 
 Este proyecto es una calculadora web robusta desarrollada con **TypeScript**. La aplicación sigue el patrón de diseño **Modelo-Vista-Controlador (MVC)**, lo que garantiza un código organizado, escalable y fácil de mantener. **Node.js** se utiliza únicamente para compilar el código TypeScript, mientras que la aplicación se sirve como archivos estáticos en Netlify.
 
+## Ver proyecto
+[🔗 calculadora](https://calculadora-type-script.netlify.app/)
+
 ## Tecnologías utilizadas
 
 * **Lenguaje:** [TypeScript](https://www.typescriptlang.org/)
@@ -27,17 +30,29 @@ src/
 │   └── CalculatorView.ts
 └── index.ts  # Punto de entrada
 ```
-**Tecnologías utilizadas**
 
-- Node.js (sin frameworks)
-- TypeScript
-- Programación Orientada a Objetos (OOP)
-- Patrón MVC
+## Instalación local:
+Sigue estos pasos para ejecutar el proyecto en tu entorno local:
 
-**Clonar el repositorio:**
+**1.- Clonar el repositorio:**
 
-git clone https://github.com/LuissVi/Calculadora-Type-Script.git
-cd tu-repositorio
+    - git clone https://github.com/LuissVi/Calculadora-Type-Script.git
+
+    - cd tu-repositorio
+
+## 2.- Instalar dependencias:
+
+Esto descargará las herramientas necesarias (como TypeScript) especificadas en el package.json.
+
+    - npm install
+
+## 3.- Compilar el proyecto
+
+    - Genera los archivos JavaScript necesarios para que el navegador pueda ejecutar la aplicación.
+    - npm run build
+
+## Ejecutar
+    Abre el archivo index.html en tu navegador.
 
 ## 📄 Documentación detallada
 
